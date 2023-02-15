@@ -11,5 +11,8 @@
     "idf.pythonBinPathWin": "C:\\Users\\steph\\.espressif\\python_env\\idf5.0_py3.8_env\\Scripts\\python.exe",
     "idf.toolsPathWin": "C:\\Users\\steph\\.espressif",
     "cmake.configureOnOpen": true,
-    "idf.flashType": "UART"
+    "idf.flashType": "UART",
+    "files.associations": {
+        "stdio.h": "c"
+    }
 }

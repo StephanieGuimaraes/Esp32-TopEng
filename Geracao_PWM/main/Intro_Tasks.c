@@ -71,7 +71,6 @@ void app_main(void) {
         2048,       // Stack depth - ver documentação
         NULL,       // Parâmetro para a task, neste exemplo sem parâmetros
         1,          // Prioridade da Task
-        NULL        // Task handle - ver documentação
-    );
+        NULL);  // Task handle - ver documentação
     xTaskCreate(&task2, "cont2", 2048, NULL, 2, NULL);
 }
